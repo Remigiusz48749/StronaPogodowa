@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+}
+
+.comments{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    @starting-style{
+        opacity: 0;
+    }
+}
+
+.header {
+    font-size: 2em;
+    color: #097969;
+    text-align: center;
+}
+
+.comment-input{
+    max-width: 75%;
+}
+
+.comment-input textarea {
+    max-width: calc(100% - 5.6px);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.comment-input button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.comments-list{
+    width: 75%;
+    margin: auto;
+}
+
+.comment-container{
+    background: #f1f1f1;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 3px solid #097969;
+    border-radius: 14px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    @starting-style{
+        transform: translateX(-200px);
+    }  
+}
+
+.comment-container:nth-child(even){
+    @starting-style{
+        transform: translateX(200px);
+    } 
+}
+
+.comment-date{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+}

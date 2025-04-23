@@ -1,0 +1,64 @@
+.home {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    @starting-style{
+        opacity: 0;
+    }
+}
+
+.header {
+    font-size: 2em;
+    color: #097969;
+    text-align: center;
+}
+
+.SearchBar {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.LeftMargin {
+    margin-left: 10px;
+}
+
+.weather-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.city-weather {
+    background-color: #e9e9e9;
+    border: 1px solid #ddd;
+    flex-shrink: 2;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    @starting-style{
+        transform: translateY(20px);
+    }
+}
+
+.forecast{
+
+}
+
+.weather{
+
+}
+
+.city-weather:nth-child(even) {
+    background-color: #cfcfcf;
+}
