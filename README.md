@@ -82,8 +82,6 @@ service cloud.firestore {
 Ustaw wersję Node.js przy użyciu nvm:
 
 ```bash
-Kopiuj
-Edytuj
 nvm use
 ```
 Jeśli pojawi się błąd, zainstaluj odpowiednią wersję:
