@@ -102,14 +102,19 @@ Uruchom projekt:
 ```bash
 npm start
 ```
-## 🖼️ Widoki (README.odt po screeny)
+## 🖼️ Widoki
 - Login: http://localhost:3000/
+<img width="1875" height="912" alt="image" src="https://github.com/user-attachments/assets/50665b35-8cb8-4ea6-8d79-2ee1f5b59966" />
 
 - Home: http://localhost:3000/Home
+<img width="1884" height="912" alt="image" src="https://github.com/user-attachments/assets/6331bc09-ea4a-4a62-8ee2-808cad9a7900" />
+<img width="1822" height="891" alt="image" src="https://github.com/user-attachments/assets/c9c22d12-9f34-41c7-bf0d-de8e598beb86" />
 
 - Favorites: http://localhost:3000/Favorites
+<img width="1882" height="882" alt="image" src="https://github.com/user-attachments/assets/ca384757-f4cf-4a57-8108-0f1fa126dd1d" />
 
 - Comments: http://localhost:3000/Comments
+<img width="1867" height="900" alt="image" src="https://github.com/user-attachments/assets/2de5ae4d-cbf6-4161-a209-1aad5cbead06" />
 
 ## 🔗 Link do repozytorium
 https://github.com/Remigiusz48749/StronaPogodowa
